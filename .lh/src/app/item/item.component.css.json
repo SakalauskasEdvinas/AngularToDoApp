@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/item/item.component.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1685565412721,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1685565412721,
+            "name": "Commit-0",
+            "content": ".item {\r\n    padding: 0.5rem 0 0.75rem 0;\r\n    text-align: left;\r\n    font-size: 1.2rem;\r\n  }\r\n  \r\n  .btn-wrapper {\r\n    margin-top: 1rem;\r\n    margin-bottom: 0.5rem;\r\n  }\r\n  \r\n  .btn {\r\n    /* menu buttons flexbox styles */\r\n    flex-basis: 49%;\r\n  }\r\n  \r\n  .btn-save {\r\n    background-color: #000;\r\n    color: #fff;\r\n    border-color: #000;\r\n  }\r\n  \r\n  .btn-save:hover {\r\n    background-color: #444242;\r\n  }\r\n  \r\n  .btn-save:focus {\r\n    background-color: #fff;\r\n    color: #000;\r\n  }\r\n  \r\n  .checkbox-wrapper {\r\n    margin: 0.5rem 0;\r\n  }\r\n  \r\n  .btn-warn {\r\n    background-color: #b90000;\r\n    color: #fff;\r\n    border-color: #9a0000;\r\n  }\r\n  \r\n  .btn-warn:hover {\r\n    background-color: #9a0000;\r\n  }\r\n  \r\n  .btn-warn:active {\r\n    background-color: #e30000;\r\n    border-color: #000;\r\n  }\r\n  \r\n  .sm-text-input {\r\n    width: 100%;\r\n    padding: 0.5rem;\r\n    border: 2px solid #555;\r\n    display: block;\r\n    box-sizing: border-box;\r\n    font-size: 1rem;\r\n    margin: 1rem 0;\r\n  }\r\n  \r\n  /* Custom checkboxes\r\n  Adapted from https://css-tricks.com/the-checkbox-hack/#custom-designed-radio-buttons-and-checkboxes */\r\n  \r\n  /* Base for label styling */\r\n  [type=\"checkbox\"]:not(:checked),\r\n  [type=\"checkbox\"]:checked {\r\n    position: absolute;\r\n    left: -9999px;\r\n  }\r\n  [type=\"checkbox\"]:not(:checked) + label,\r\n  [type=\"checkbox\"]:checked + label {\r\n    position: relative;\r\n    padding-left: 1.95em;\r\n    cursor: pointer;\r\n  }\r\n  \r\n  /* checkbox aspect */\r\n  [type=\"checkbox\"]:not(:checked) + label:before,\r\n  [type=\"checkbox\"]:checked + label:before {\r\n    content: \"\";\r\n    position: absolute;\r\n    left: 0;\r\n    top: 0;\r\n    width: 1.25em;\r\n    height: 1.25em;\r\n    border: 2px solid #ccc;\r\n    background: #fff;\r\n  }\r\n  \r\n  /* checked mark aspect */\r\n  [type=\"checkbox\"]:not(:checked) + label:after,\r\n  [type=\"checkbox\"]:checked + label:after {\r\n    content: \"\\2713\\0020\";\r\n    position: absolute;\r\n    top: 0.15em;\r\n    left: 0.22em;\r\n    font-size: 1.3em;\r\n    line-height: 0.8;\r\n    color: #0d8dee;\r\n    transition: all 0.2s;\r\n    font-family: \"Lucida Sans Unicode\", \"Arial Unicode MS\", Arial;\r\n  }\r\n  /* checked mark aspect changes */\r\n  [type=\"checkbox\"]:not(:checked) + label:after {\r\n    opacity: 0;\r\n    transform: scale(0);\r\n  }\r\n  [type=\"checkbox\"]:checked + label:after {\r\n    opacity: 1;\r\n    transform: scale(1);\r\n  }\r\n  \r\n  /* accessibility */\r\n  [type=\"checkbox\"]:checked:focus + label:before,\r\n  [type=\"checkbox\"]:not(:checked):focus + label:before {\r\n    border: 2px dotted blue;\r\n  }\r\n  "
+        }
+    ]
+}
