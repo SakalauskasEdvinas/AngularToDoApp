@@ -8,7 +8,7 @@ import { Item } from "./item";
 })
 export class AppComponent {
   title = 'Angular To do application';
-  filter: "all" | "active" | "done" = "all";
+  filter: "all" | "active" | "isComplete" = "all";
 
   allItems = [
     { description: "study", isComplete: true },
@@ -23,7 +23,7 @@ export class AppComponent {
     }
 
     return this.allItems.filter((item) =>
-      this.filter === "done" ? item.isComplete : !item.isComplete
+      this.filter === "isComplete" ? item.isComplete : !item.isComplete
     );
   }
 
